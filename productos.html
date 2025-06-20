@@ -1,0 +1,113 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d35400;
+      margin-bottom: 40px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .plato {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .plato:hover {
+      transform: scale(1.02);
+    }
+
+    .plato img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .plato-info {
+      padding: 15px;
+    }
+
+    .plato-nombre {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .plato-descripcion {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .plato-precio {
+      font-size: 18px;
+      font-weight: bold;
+      color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tipos de Tour</h1>
+
+  <div class="menu">
+    <div class="plato">
+      <img src="Dul1.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre"> Tour clásico Clásica</div>
+        <div class="plato-descripcion"> Pequeño Tour al realizarse zona arqueológica.</div>
+
+        <div class="plato-precio">$108.99</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="Dul2.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre"> Tour premium</div>
+        <div class="plato-descripcion"> Tour alrededor de zona arqueológica y Talleres de obsidiana y nopal .</div>
+        <div class="plato-precio">$360.50</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="Dul3.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre"> Tours Platinium</div>
+        <div class="plato-descripcion"> Tour alrededor de zona arqueológica y taller de obsidiana, nopal y barro.</div>
+        <div class="plato-precio">$390.25</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="Dul4.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre"> Tour estelar</div>
+        <div class="plato-descripcion"> Tour alrededor de zona arqueológica y taller de obsidiana ,nopal y barro con una comida en el restaurante ,que ofrecerá un platillo de mixiotes .</div>
+        <div class="plato-precio">$6.75</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
